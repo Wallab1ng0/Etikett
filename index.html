@@ -3,168 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jacket 1, 2460 - Produktinformation</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            color: #333;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        h1, h2, h3 {
-            color: #2c3e50;
-        }
-
-        h1 {
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
-        }
-
-        h2 {
-            background-color: #f8f9fa;
-            padding: 8px;
-            border-left: 4px solid #3498db;
-        }
-
-        .info-section {
-            margin-bottom: 30px;
-            border: 1px solid #ddd;
-            padding: 15px;
-            border-radius: 5px;
-        }
-
-        .fiber-composition, .transport-info {
-            background-color: #f8f9fa;
-            padding: 15px;
-            border-radius: 5px;
-            margin-top: 15px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 15px 0;
-        }
-
-        table, th, td {
-            border: 1px solid #ddd;
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #f2f2f2;
-        }
-
-        .footer {
-            margin-top: 30px;
-            font-size: 0.9em;
-            color: #666;
-            text-align: center;
-        }
-    </style>
+    <title>Produktinformation - Jackor</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Jacket 1, 2460 - Produktinformation</h1>
+<body class="bg-gray-100 text-gray-800">
+    <div class="max-w-5xl mx-auto p-6">
+        <header class="mb-10 text-center">
+            <h1 class="text-4xl font-bold text-blue-900">Produktinformation - Jackor</h1>
+            <p class="text-gray-600 mt-2">Här hittar du både generell och avancerad information om våra jackor.</p>
+        </header>
 
-    <div class="info-section">
-        <h2>Generell Information</h2>
-        <p><strong>Fibersammansättning:</strong></p>
-        <ul>
-            <li><strong>Yttertyg (Shell fabric):</strong> 88% Nylon, 12% Spandex</li>
-            <li><strong>Foder (Lining):</strong> 100% Polyester (varierar beroende på del)</li>
-            <li><strong>Isolering (Insulation):</strong> 30% Recycled Polyester, 70% Polyester</li>
-            <li><strong>Dragkedjor (Zipper):</strong> Metall (Gunmetal/Svart)</li>
-            <li><strong>Övriga komponenter:</strong> Polyester, Nylon, Spandex, Polyuretan</li>
-        </ul>
+        <!-- Första jackan: Jacket 1 -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-blue-800 mb-4">Jacket 1, 2460 - Produktinformation</h2>
 
-        <p><strong>Tvättråd:</strong> Se care label (8848-003)</p>
-        <p><strong>Storlek:</strong> Finns i flera storlekar (märkta med 8848-20104 size label)</p>
-        <p><strong>Tillverkningsland:</strong> <strong>Kina</strong> (Producerad i Suzhou, Dalian, Haining m.fl.)</p>
-    </div>
+            <!-- Generell information -->
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold">Fibersammansättning</h3>
+                    <ul>
+                        <li><strong>Yttertyg (Shell fabric):</strong> 88% Nylon, 12% Spandex</li>
+                        <li><strong>Foder (Lining):</strong> 100% Polyester (varierar beroende på del)</li>
+                        <li><strong>Isolering (Insulation):</strong> 30% Recycled Polyester, 70% Polyester</li>
+                        <li><strong>Dragkedjor (Zipper):</strong> Metall (Gunmetal/Svart)</li>
+                        <li><strong>Övriga komponenter:</strong> Polyester, Nylon, Spandex, Polyuretan</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold">Tvättråd</h3>
+                    <p>Se care label (8848-003)</p>
+                    <h3 class="font-semibold mt-4">Storlek</h3>
+                    <p>Finns i flera storlekar (märkta med 8848-20104 size label)</p>
+                    <h3 class="font-semibold mt-4">Tillverkningsland</h3>
+                    <p><strong>Kina</strong> (Producerad i Suzhou, Dalian, Haining m.fl.)</p>
+                </div>
+            </div>
 
-    <div class="info-section">
-        <h2>Avancerad Information</h2>
+            <!-- Avancerad information -->
+            <div class="space-y-6 mt-8">
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold">Detaljerad Fibersammansättning</h3>
+                    <p><strong>Yttertyg:</strong> FY19030-16: 70D Elastic Nylon Plain FD, PD+DWR(C0)+PU, Microporous, 184GSM</p>
+                    <p><strong>Foder:</strong> DMF002-2SDC: 100% Polyester Microfiber</p>
+                    <p><strong>Isolering:</strong> SPF4 Padding: 30% Recycled Polyester, 70% Polyester</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold">Miljö & Hållbarhet</h3>
+                    <ul>
+                        <li><strong>Koldioxidavtryck (CO₂/kg plagg):</strong> 0,13 kg (Transport via båt i FCL 40'HC container)</li>
+                        <li><strong>Återvunnet material:</strong> 30% Recycled Polyester i isolering</li>
+                        <li><strong>Kemikaliehantering:</strong> DWR (Durable Water Repellent) C0 (fluorfri), PU (Polyuretan)</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold">Certifieringar & Standarder</h3>
+                    <p>Ingen specifik certifiering angiven (men DWR C0 indikerar miljövänlig behandling)</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold">Transportspårning</h3>
+                    <p><strong>Huvudtransport:</strong> Truck (Kina) → Yingkou (hamn) → Båt till Göteborg</p>
+                    <p><strong>Total transportsträcka:</strong> Varierar mellan 250–3,005 km beroende på komponent</p>
+                </div>
+            </div>
+        </section>
 
-        <h3>Detaljerad Fibersammansättning</h3>
-        <div class="fiber-composition">
-            <p><strong>Yttertyg:</strong></p>
-            <ul>
-                <li>FY19030-16: 70D Elastic Nylon Plain FD, PD+DWR(C0)+PU, Microporous, 184GSM</li>
-                <li>CH-832354-TUBE: 100% Polyester (T-400 stretch)</li>
-            </ul>
+        <!-- Andra jackan -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-blue-800 mb-4">Jacket 2, 3500 - Produktinformation</h2>
 
-            <p><strong>Foder:</strong></p>
-            <ul>
-                <li>DMF002-2SDC: 100% Polyester Microfiber</li>
-                <li>DIK108-2SDDA: 82% Polyester, 18% Spandex</li>
-                <li>TY-728: 80% Nylon, 20% Spandex (Power Mesh)</li>
-            </ul>
+            <!-- Generell information -->
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold">Fibersammansättning</h3>
+                    <ul>
+                        <li><strong>Yttertyg (Shell fabric):</strong> 85% Polyester, 15% Spandex</li>
+                        <li><strong>Foder (Lining):</strong> 100% Polyester (varierar beroende på del)</li>
+                        <li><strong>Isolering (Insulation):</strong> 40% Recycled Polyester, 60% Polyester</li>
+                        <li><strong>Dragkedjor (Zipper):</strong> Plast (Svart)</li>
+                        <li><strong>Övriga komponenter:</strong> Polyester, Nylon</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold">Tvättråd</h3>
+                    <p>Maskintvätt 30°C, torktumlas ej, stryk med låg värme.</p>
+                    <h3 class="font-semibold mt-4">Storlek</h3>
+                    <p>Finns i flera storlekar (märkta med 8848-20105 size label)</p>
+                    <h3 class="font-semibold mt-4">Tillverkningsland</h3>
+                    <p><strong>Bangladesh</strong> (Producerad i Dhaka)</p>
+                </div>
+            </div>
 
-            <p><strong>Isolering:</strong></p>
-            <ul>
-                <li>SPF4 Padding: 30% Recycled Polyester, 70% Polyester</li>
-                <li>SCRIM: 100% Polyester</li>
-            </ul>
-        </div>
-
-        <h3>Miljö & Hållbarhet</h3>
-        <ul>
-            <li><strong>Koldioxidavtryck (CO₂/kg plagg):</strong> <strong>0,13 kg</strong> (Transport via båt i FCL 40'HC container)</li>
-            <li><strong>Återvunnet material:</strong> 30% Recycled Polyester i isolering</li>
-            <li><strong>Kemikaliehantering:</strong> DWR (Durable Water Repellent) C0 (fluorfri), PU (Polyuretan) används i vissa komponenter</li>
-        </ul>
-
-        <h3>Etiska Aspekter</h3>
-        <ul>
-            <li><strong>Tillverkningsorter:</strong> Suzhou, Dalian, Haining (Kina)</li>
-            <li><strong>Leverantörer:</strong> Flytec, Smartex, YKK, Coats m.fl.</li>
-        </ul>
-
-        <h3>Transportspårning</h3>
-        <div class="transport-info">
-            <p><strong>Huvudtransport:</strong> Truck (Kina) → Yingkou (hamn) → Båt till Göteborg</p>
-            <p><strong>Total transportsträcka:</strong> Varierar mellan 250–3,005 km beroende på komponent</p>
-        </div>
-
-        <h3>Certifieringar & Standarder</h3>
-        <ul>
-            <li>Ingen specifik certifiering angiven (men DWR C0 indikerar miljövänlig behandling)</li>
-        </ul>
-
-        <h3>Spårbarhet</h3>
-        <ul>
-            <li><strong>Råmaterial → Produktion → Transport → Färdig produkt:</strong></li>
-            <li><strong>Yttertyg:</strong> Tillverkat i Suzhou (Flytec/Smartex)</li>
-            <li><strong>Foder:</strong> Tillverkat i Suzhou/Haining/Korea</li>
-            <li><strong>Dragkedjor:</strong> YKK (Shenzhen/Dalian)</li>
-            <li><strong>Isolering:</strong> Huirong (Dalian)</li>
-            <li><strong>Montering & Export:</strong> Dashiqiao (Kina)</li>
-        </ul>
-    </div>
-
-    <div class="info-section">
-        <h2>Övrigt</h2>
-        <ul>
-            <li><strong>Produktionskvantitet:</strong> 1 695 st</li>
-            <li><strong>Transporttid (FOB Dalian → Göteborg):</strong> 80 dagar (båt)</li>
-            <li><strong>Förpackning:</strong></li>
-            <ul>
-                <li><strong>Polybag:</strong> 100% Polyetylen</li>
-                <li><strong>Kartong:</strong> 100% Pappersmassa</li>
-            </ul>
-        </ul>
-    </div>
-
-    <div class="footer">
-        <p>Denna produkt är designad för hållbarhet med vissa miljövänliga inslag, men saknar större certifieringar som GOTS eller Fair Trade.</p>
+            <!-- Avancerad information -->
+            <div class="space-y-6 mt-8">
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold">Detaljerad Fibersammansättning</h3>
+                    <p><strong>Yttertyg:</strong> Polyester-nylon blandning, vattentålig</p>
+                    <p><strong>Foder:</strong> 100% återvunnen polyester</p>
+                    <p><strong>Isolering:</strong> Högpresterande syntetisolering</p>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold">Miljö & Hållbarhet</h3>
+                    <ul>
+                        <li><strong>Koldioxidavtryck (CO₂/kg plagg):</strong> 0,11 kg</li>
+                        <li><strong>Återvunnet material:</strong> 40% Recycled Polyester i isolering</li>
+                        <li><strong>Kemikaliehantering:</strong> Fluorfria ytbehandlingar (DWR C0)</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="font-semibold">Certifieringar & Standarder</h3>
+                    <p>OEKO-TEX Standard 100, GOTS</p>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
